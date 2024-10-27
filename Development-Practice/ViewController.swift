@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    func add() {
+        print("add")
+    }
 
     func sleep() {
         print("Sleep")
@@ -33,5 +37,8 @@ class ViewController: UIViewController {
         print("Main4444")
     }
 
+    func home() {
+        print("home")
+    }
 }
 
