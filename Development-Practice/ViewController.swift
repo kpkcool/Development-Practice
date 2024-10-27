@@ -23,6 +23,7 @@ class ViewController: UIViewController {
 
     func sleep() {
         print("Login1")
+        print("Signup1")
         print("Sleep")
     }
     
@@ -32,3 +33,8 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController {
+    func signUp() {
+        print("SignUp")
+    }
+}
