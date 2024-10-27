@@ -22,7 +22,12 @@ class ViewController: UIViewController {
     }
 
     func sleep() {
+        print("Login1")
         print("Sleep")
+    }
+    
+    func login() {
+        print("Login2")
     }
 
 }
