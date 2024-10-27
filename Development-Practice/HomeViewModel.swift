@@ -9,4 +9,8 @@ import Foundation
 
 class HomeViewModel {
     var array: [String] = []
+    
+    func printMe() {
+        print("Print")
+    }
 }
