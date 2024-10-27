@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
     
     func main() {
-        print("Main")
+        print("Main4")
     }
 
 }
