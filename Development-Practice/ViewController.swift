@@ -24,6 +24,10 @@ class ViewController: UIViewController {
     func sleep() {
         print("Sleep")
     }
+    
+    func main() {
+        print("Main")
+    }
 
 }
 
