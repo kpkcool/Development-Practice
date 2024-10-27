@@ -15,6 +15,13 @@ class ViewController: UIViewController {
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
+    
+    private lazy var newView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .red
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +33,13 @@ class ViewController: UIViewController {
     }
 
     func sleep() {
-        print("Sleep")
+        print("Sleep1")
+        print("Sleep2")
+        print("Sleep3")
+    }
+    
+    func go() {
+        print("Go1")
     }
     
     func main() {
@@ -35,6 +48,7 @@ class ViewController: UIViewController {
         print("Main444")
         print("Main4444")
         print("Main4444")
+        print("Main1")
     }
 
     func home() {
