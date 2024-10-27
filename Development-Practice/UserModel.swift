@@ -9,4 +9,5 @@ import Foundation
 
 class UserModel {
     var name: String?
+    var age: Int?
 }

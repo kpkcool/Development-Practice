@@ -11,8 +11,6 @@ class ViewController: UIViewController {
     
     private lazy var containerView: UIView = {
         let view = UIView()
-        view.addCornerRadius(radius: 12)
-        view.addShadow(color: UIColor.lightGray, opacity: 0.2, radius: 4, offset: CGSize(width: 2, height: 4))
         view.backgroundColor = .white
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
@@ -23,6 +21,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    func sleep() {
+        print("Sleep")
+    }
 
 }
 
