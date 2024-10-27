@@ -35,6 +35,6 @@ class ViewController: UIViewController {
 
 extension ViewController {
     func signUp() {
-        print("SignUp")
+        print("SignUp2")
     }
 }
